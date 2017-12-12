@@ -1,0 +1,591 @@
+    1  yum update -y
+    2  yum install puppet-server
+    3  chkconfig puppetmaster on
+    4  service puppetmaster on
+    5  service puppetmaster start
+    6  service puppetmaster status
+    7  service puppetmaster enable
+    8  service puppetmaster restart
+    9  clear
+   10  service puppetmaster restart
+   11  service puppetmaster force-rload
+   12  service puppetmaster reload
+   13  uname -r
+   14  ls
+   15  service puppetmaster reload
+   16  clear
+   17  service puppetmaster status
+   18  wget -O kops https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
+   19  ls
+   20  cd kops 
+   21  cat kops 
+   22  ls
+   23  chmod +x ./kops
+   24  sudo mv ./kops /usr/local/bin/
+   25  ls
+   26  wget -O kubectl https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+   27  ls
+   28  chmod +x ./kubectl
+   29  sudo mv ./kubectl /usr/local/bin/kubectl
+   30  ls
+   31  curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+   32  ls
+   33  kubectl
+   34  gcloud components install kubectl
+   35  python -V
+   36  uname -m
+   37  ./google-cloud-sdk/install.sh
+   38  wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-180.0.0-linux-x86_64.tar.gz
+   39  ls
+   40  tar -xvf google-cloud-sdk-180.0.0-linux-x86_64.tar.gz 
+   41  ls
+   42  ./google-cloud-sdk/install.sh
+   43  ./google-cloud-sdk/install.sh
+   44  gcloud components install kubectl
+   45  yum install gcloud
+   46  PATH
+   47  path
+   48  which path
+   49  curl https://sdk.cloud.google.com | bash
+   50  restart
+   51  r
+   52  ./google-cloud-sdk/install.sh
+   53  export PATH="/usr/lib/google-cloud-sdk/bin:$PATH"
+   54  gcloud init
+   55  ./google-cloud-sdk/install.sh
+   56  export PATH="/usr/lib/google-cloud-sdk/bin:$PATH"
+   57  curl https://sdk.cloud.google.com | bash
+   58  gcloud init
+   59  ls
+   60  cd hanu/
+   61  ls
+   62  cd google-cloud-sdk/
+   63  ls
+   64  install.sh
+   65  ./install.sh
+   66  gcloud init
+   67  pcd ..
+   68  cd ..
+   69  cd ..
+   70  ls
+   71  whichpath
+   72  path
+   73  which path
+   74  cd /usr/bin
+   75  ls
+   76  cd ..
+   77  cd /home/ec2-user/
+   78  ls
+   79  mv google-cloud-sdk
+   80  mv google-cloud-sdk /usr/bin
+   81  ls
+   82  cd /usr/bin/
+   83  ls
+   84  cd google-cloud-sdk/
+   85  ls
+   86  ./install.bat
+   87  cd install.
+   88  ./install.sh
+   89  ls
+   90  vi vi path.bash.inc
+   91  vi path.bash.inc
+   92  vi completion.bash.inc 
+   93  vi completion.bash.inc 
+   94  vi completion.bash.inc 
+   95  vi path.bash.inc
+   96  gcloud init
+   97  vi completion.bash.inc 
+   98  pwd
+   99  export PATH="/usr/lib/google-cloud-sdk/bin:$PATH"
+  100  gcloud init
+  101  ./install.sh
+  102  ls
+  103  vi completion.bash.inc 
+  104  vi path.bash.inc
+  105  pwd
+  106  vi path.bash.inc
+  107  vi path.bash.inc
+  108  ./install.sh
+  109  vi path.bash.inc
+  110  cd /Users/MY_USERSAME/.bash_profile
+  111  cd /usr
+  112  ls
+  113  cd /
+  114  ls
+  115  cd /home/e
+  116  cd /home/
+  117  cd ec2-user/
+  118  ls
+  119  kubectl
+  120   sudo mv ./kubectl /usr/local/bin/kubectl
+  121  kubectl
+  122  curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+  123  ls
+  124   chmod +x ./kubectl
+  125   sudo mv ./kubectl /usr/local/bin/kubectl
+  126  kubectl
+  127  kube
+  128  which path
+  129  ls
+  130  rm -rf google-cloud-sdk-180.0.0-linux-x86_64.tar.gz hanu/
+  131  ls
+  132  clear
+  133  kube
+  134  ls
+  135  vim telegraf.conf 
+  136  service restart telegraf
+  137  service telegraf restart
+  138  vim telegraf.conf 
+  139  service restart telegraf
+  140  service telegraf restart
+  141  vim telegraf.conf 
+  142  vim telegraf.conf 
+  143  service telegraf restart
+  144  service telegraf status
+  145  service telegraf start
+  146  service telegraf status
+  147  service telegraf enable
+  148  service telegraf stop
+  149  service telegraf start
+  150  service telegraf status
+  151  vim telegraf.conf 
+  152  less telegraf.conf
+  153  less telegraf.conf
+  154  vim telegraf.conf 
+  155  vim telegraf.conf 
+  156  vim telegraf.conf 
+  157  vim telegraf.conf 
+  158  service telegraf restart
+  159  service telegraf status
+  160  vim telegraf.conf 
+  161  service telegraf restart
+  162  service telegraf status
+  163  docker
+  164  yum install docker
+  165  service docker start
+  166  service docker status
+  167  docker images
+  168  vim Dockerfile
+  169  docker build -t
+  170  docker build -t centos .
+  171  docker images
+  172  vim Dockerfile
+  173  docker build -t centos .
+  174  vim Dockerfile
+  175  docker build -t centos .
+  176  docker images
+  177  docker run -it centos
+  178  docker run -it centos
+  179  ls
+  180  cd /
+  181  ls
+  182  cd var/
+  183  ls
+  184  cd l
+  185  cd log
+  186  ls
+  187  cat yum.log 
+  188  cd /
+  189  yum install httpd
+  190  cd /var/
+  191  ls
+  192  cd log
+  193  ls
+  194  cd httpd/
+  195  ls
+  196  less httpd
+  197  less cron
+  198  cat cron
+  199  cat dracd ..
+  200  ls
+  201  cd ..
+  202  pwd
+  203  cd /etc/httpd/
+  204  ls
+  205  cd conf
+  206  ls
+  207  less httpd.conf 
+  208  cat httpd.conf 
+  209  clear
+  210  ls
+  211  less httpd.conf 
+  212  vim httpd.conf 
+  213  vim httpd.conf 
+  214  vim /etc/yum.repos.d/influxdata.repo
+  215  sudo yum install telegraf
+  216  cd /
+  217  ls
+  218  cd /home/ec2-user/
+  219  ls
+  220  sudo yum install telegraf
+  221  cd /etc/telegraf/telegraf.conf
+  222  cd /etc
+  223  ls
+  224  cd telegraf/
+  225  ls
+  226  vim telegraf.conf 
+  227  rpm qa | grep telegraf
+  228  rpm -e telegraf
+  229  ls
+  230  wget http://ftp.rpm.org/releases/rpm-4.12.x/rpm-4.12.0.2.tar.bz2
+  231  ls
+  232  tar -xvf rpm-4.12.0.2.tar.bz2 
+  233  ls
+  234  mv rpm-4.12.0.2 rpm
+  235  ls
+  236  rpm -e telegraf
+  237  telegraf
+  238  cd ..
+  239  ls
+  240  cd telegraf/
+  241  ls
+  242  cd rpm
+  243  ls
+  244  cd ..
+  245  ls
+  246  cd ..
+  247  ls
+  248  cd /
+  249  ls
+  250  cd /home/
+  251  cd ec2-user/
+  252  ls
+  253  vim /etc/yum.repos.d/influxdata.repo
+  254  sudo yum install telegraf
+  255  ls
+  256  cd /r
+  257  cd /etc/
+  258  cd telegraf/
+  259  ls
+  260  vim telegraf.conf 
+  261  vim telegraf.conf 
+  262  vim telegraf.conf 
+  263  service telegraf start
+  264  service telegraf status
+  265  cd /
+  266  cd var/
+  267  ls
+  268  cd l
+  269  cd log/
+  270  ls
+  271  cd telegraf/
+  272  ls
+  273  vim telegraf.log 
+  274  pwd
+  275  ls
+  276  vim telegraf.log 
+  277  pwd
+  278  vim telegraf.log 
+  279  cd ..
+  280  cd ..
+  281  ls
+  282  cd /
+  283  ls
+  284  cd /home/ec2-user/
+  285  ls
+  286  cd /
+  287  ls
+  288  cd etc/
+  289  ls
+  290  cd telegraf/
+  291  ls
+  292  vim telegraf.conf 
+  293  vim telegraf.conf 
+  294  service telegraf restart
+  295  cd /var
+  296  cd log/
+  297  ls
+  298  cd telegraf/
+  299  ls
+  300  vim telegraf.log 
+  301  cd etc/
+  302  cd /etc/
+  303  cd telegraf/
+  304  ls
+  305  vim telegraf.conf 
+  306  service telegraf restart
+  307  service telegraf restartcd /var
+  308  cd log
+  309  ccd /var/
+  310  cd /var
+  311  cd lo
+  312  cd log
+  313  ls
+  314  cd telegraf/
+  315  ls
+  316  vim telegraf.log 
+  317  ls
+  318  vim telegraf.log 
+  319  vim telegraf.log 
+  320  vim telegraf.log 
+  321  vim telegraf.log 
+  322  less telegraf.log 
+  323  less telegraf.log 
+  324  less telegraf.log 
+  325  less telegraf.log 
+  326  ls
+  327  docker images
+  328  docker ps -a
+  329  docker ps
+  330  docker exec -it 19c53201006d
+  331  docker exec -it 19c53201006d /bin/bash
+  332  docker container run --detach -p 90:80 centos
+  333  docker ps -a
+  334  ls
+  335  vi Dockerfile 
+  336  docker build -t newimage_1 .
+  337  docker images
+  338  docker ps
+  339  docker ps -a
+  340  docker run -it newimage_1
+  341  ls
+  342  docker ps
+  343  docker ps -a
+  344  docker exec -it newimage_1 /bin/bash
+  345  docker exec -it 9f1de6581ecb /bin/bash
+  346  docker container run 9f1de6581ecb957119d28339ca3bd15f0f25842daec6f446a5d25d5596364928
+  347  docker container run 9f1de6581ecb
+  348  docker push --help
+  349  docker images
+  350  docker run -d -p 5555:80 newimage_1
+  351  docker ps -a
+  352  docker ps
+  353  ls
+  354  vi Dockerfile 
+  355  clear
+  356  docker images
+  357  docker rmi 88ec5c9efc10 d123f4e55e12 f2829f18a039
+  358  docker images
+  359  docker rmi -f 88ec5c9efc10
+  360  docker ps -a
+  361  docker rm -f a1184be75bb1 9f1de6581ecb 62febf179055 19c53201006d fdc1bc3f1744
+  362  docker ps -a
+  363  docker images
+  364  docker rmi -f d123f4e55e12
+  365  docker images
+  366  ls
+  367  rm -rf Dockerfile 
+  368  ls
+  369  clear
+  370  docker pull makuk66/docker-solr
+  371  docker images
+  372  docker ps
+  373  docker ps -a
+  374  docker run -d -p 5050:80 makuk66/docker-solr
+  375  docker ps 
+  376  docker images
+  377  docker ps
+  378  docker exec -it 1d28eb9eeb64 /bin/bash
+  379  docker ps
+  380  docker run -d -p 5050:8983 makuk66/docker-solr
+  381  docker run -d -p 5051:8983 makuk66/docker-solr
+  382  docker ps
+  383  docker pull ravielluri/image
+  384  docker pull ravielluri/image
+  385  docker pull ravielluri
+  386  docker-compose up
+  387  yum install docker-compose
+  388  wget sudo curl -L https://github.com/docker/compose/releases/download/1.17.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+  389  which location
+  390  yum install which
+  391  sudo chmod +x /usr/local/bin/docker-compose
+  392  cd usr/local/bin
+  393  cd /usr/local/bin/
+  394  ls
+  395  mv docker-compose /usr/bin
+  396  ls
+  397  docker-compose -v
+  398  docker-compose
+  399  yum incd /
+  400  cd /
+  401  ls
+  402  cd opt/
+  403  ls
+  404  cd ..
+  405  ls
+  406  cd usr/
+  407  ls
+  408  cd bin/
+  409  ls
+  410  cd docker-compose 
+  411  cd ..
+  412  cd docker-compose
+  413  cd /
+  414  ls
+  415  which location
+  416  clear
+  417  docker-compose
+  418  $ curl -L https://github.com/docker/compose/releases/download/1.16.1/docker-compose-`uname -s`-`uname -m` > ./docker-compose
+  419  yum install curl
+  420  $ curl -L https://github.com/docker/compose/releases/download/1.16.1/docker-compose-`uname -s`-`uname -m` > ./docker-compose
+  421  curl -L https://github.com/docker/compose/releases/download/1.16.1/docker-compose-`uname -s`-`uname -m` > ./docker-compose
+  422  $ sudo mv ./docker-compose /usr/bin/docker-compose
+  423  sudo mv ./docker-compose /usr/bin/docker-compose
+  424  sudo chmod +x /usr/bin/docker-compose
+  425  docker-compose
+  426  docker-compose -v
+  427  docker-compose up
+  428  clear
+  429  ping
+  430  ping -i
+  431  ping -i interval
+  432  ping -c count
+  433  ping -c count google
+  434  clear
+  435  history
+  436  clear
+  437  ls
+  438  wget http://download.nextag.com/apache/tomcat/tomcat-8/v8.5.23/bin/apache-tomcat-8.5.23.tar.gz
+  439  ls
+  440  tar -xvf apache-tomcat-8.5.23.tar.gz 
+  441  ls
+  442  mv apache-tomcat-8.5.23 apache
+  443  ls
+  444  cd apache
+  445  ls
+  446  cd bin/
+  447  ls
+  448  ./startup.sh 
+  449  netstat -tlnp
+  450  ./startup.sh 
+  451  yum install java*
+  452  ./startup.sh 
+  453  netstat -tlnp
+  454  cd /
+  455  ls
+  456  cd /home/ec2-user/
+  457  ls
+  458  wget 
+  459  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
+  460  ls
+  461  sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+  462  wget https://pkg.jenkins.io/redhat/jenkins-2.80-1.1.noarch.rpm
+  463  ls
+  464  tar -xvf jenkins-2.80-1.1.noarch.rpm 
+  465  rpm -xvf jenkins-2.80-1.1.noarch.rpm 
+  466  clear
+  467  ls
+  468  cd jenkins-2.80-1.1.noarch.rpm 
+  469  rpm -qpl jenkins-2.80-1.1.noarch.rpm 
+  470  ls
+  471  cd /var/log
+  472  ls
+  473  cd jenkins
+  474  cd /usr/lib/jenkins
+  475  ps aux | grep jenkins
+  476  netstat -tlnp
+  477  service httpd start
+  478  netstat -tlnp
+  479  cd /home/ec2-user/
+  480  ls
+  481  rpm -qp --scripts jenkins-2.80-1.1.noarch.rpm 
+  482  clear
+  483  ls
+  484  rm -rf jenkins-2.80-1.1.noarch.rpm 
+  485  wget http://updates.jenkins-ci.org/download/war/2.7.3/jenkins.war
+  486  ls
+  487  lsls
+  488  cd jenkins.war 
+  489  tar -xvf jenkins.war 
+  490  clear
+  491  ls
+  492  mv jenkins.war apache/webapps/
+  493  ls
+  494  cd apache
+  495  ls
+  496  cd webapps/
+  497  ls
+  498  cd ..
+  499  ls
+  500  cd bin/
+  501  ls
+  502  ./startup.sh 
+  503  cd ..
+  504  service jenkins start
+  505  clear
+  506  netstat -tlnp
+  507  cat /root/.jenkins/secrets/initialAdminPassword
+  508  cd ..
+  509  cd ..
+  510  cd ec2-user/
+  511  cat /etc/os-release 
+  512  uname -a
+  513  clear
+  514  find / -name jenkins
+  515  find / -name jenkins -file
+  516  find / -name jenkins -type f
+  517  clear
+  518  find / -name jenkins -type d
+  519  find / -name jenkins* -type d
+  520  find / -name Dockerfile -type d
+  521  find / -name Dockerfile -type f
+  522  clear
+  523  find / -name httpd
+  524  find / -name httpd type d
+  525  find / -name httpd -type d
+  526  clear
+  527  netstat -tlnp
+  528  find / -port 8080
+  529  lsof -i :8080
+  530  lsof -i :8080 80
+  531  lsof -i :5050
+  532  clear
+  533  wget http://www.apache.org/dist//activemq/apache-activemq/5.5.0/apache-activemq-5.5.0-bin.tar.gz
+  534  ls
+  535  wget http://activemq.apache.org/activemq-543-release.html
+  536  ls
+  537  rm -rf activemq-543-release.html 
+  538  wget http://archive.apache.org/dist/activemq/5.14.5/apache-activemq-5.14.5-bin.tar.gz
+  539  ls
+  540  tar -xvf apache-activemq-5.14.5-bin.tar.gz 
+  541  ls
+  542  mv apache-activemq-5.14.5 activemq
+  543  ls
+  544  rm -rf apache-activemq-5.14.5-bin.tar.gz apache-tomcat-8.5.23.tar.gz 
+  545  ls
+  546  cd activemq/
+  547  ls
+  548  cd bin/
+  549  ls
+  550  cd ../../
+  551  ls
+  552  docker-compose up
+  553  clear
+  554  ls
+  555  cd activemq/
+  556  ls
+  557  cd webapps
+  558  ls
+  559  cd ../
+  560  cd //
+  561  cd  ../
+  562  ls
+  563  cd /home/ec2-user/
+  564  ls
+  565  docker-compose
+  566  clear
+  567  service activemq start
+  568  clear
+  569  ls
+  570  cd activemq/
+  571  ls
+  572  cd bin/
+  573  ls
+  574  ./activemq start
+  575  netstat -tlnp
+  576  ps aux | grep activemq
+  577  clear
+  578  cd ../
+  579  cd ..
+  580  ls
+  581  wget https://oss.sonatype.org/content/repositories/public/io/hawt/hawtio-app/1.5.6/hawtio-app-1.5.6.jar
+  582  ls
+  583  nohup java -jar hawtio-app-1.5.6.jar &
+  584  nohup java -jar hawtio-app-1.5.6.jar -p 8081 &
+  585  nohup java -jar hawtio-app-1.5.6.jar --port 8081 &
+  586  ps aux | grep hawtio
+  587  java -jar hawtio-app-1.5.6.jar --port 8081 
+  588  yum install java*
+  589  alternatives --config java
+  590  java -jar hawtio-app-1.5.6.jar --port 8081 
+  591  history > hanu.txt
